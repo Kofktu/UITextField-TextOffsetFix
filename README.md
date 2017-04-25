@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 pod "UITextField+TextOffsetFix"
 ```
 
-#### Usage
+## Usage
 
 #### Objective-C
 ```objc
