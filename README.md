@@ -2,7 +2,10 @@
 
 - UITextField character moves down when editing bug fix in iOS10
 
+#### Bug in iOS10
 ![alt tag](Screenshot/bug.gif)
+
+#### Fix
 ![alt tag](Screenshot/fix.gif)
 
 ## Example
@@ -29,6 +32,8 @@ pod "UITextField+TextOffsetFix"
 ```swift
 import UITextField_TextOffsetFix
 ```
+
+## Questions
 
 #### Why did you write the library in Objective-C, not Swift?
 ```
