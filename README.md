@@ -2,8 +2,8 @@
 
 - UITextField character moves down when editing bug fix in iOS10
 
-![alt tag] (Screenshot/bug.gif)
-![alt tag] (Screenshot/fix.gif)
+![alt tag](Screenshot/bug.gif)
+![alt tag](Screenshot/fix.gif)
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -20,12 +20,19 @@ pod "UITextField+TextOffsetFix"
 
 #### Usage
 
+#### Objective-C
 ```objc
 @import UITextField_TextOffsetFix;
 ```
 
+#### Swift
 ```swift
 import UITextField_TextOffsetFix
+```
+
+#### Why did you write the library in Objective-C, not Swift?
+```
+Method 'initialize()' defines Objective-C class method 'initialize', which is not guaranteed to be invoked by Swift and will be disallowed in future versions
 ```
 
 ## Authors
